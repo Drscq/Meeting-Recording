@@ -1,0 +1,14 @@
+{
+  "name": "meeting-recording-workflow",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Project-local CLI workflow for recording meetings, transcribing them, and saving structured notes to Notion.",
+  "bin": {
+    "meeting-recording": "./bin/meeting-recording.js"
+  },
+  "scripts": {
+    "start": "node ./bin/meeting-recording.js",
+    "test": "node --test"
+  }
+}
+
